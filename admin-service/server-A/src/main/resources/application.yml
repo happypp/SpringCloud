@@ -6,4 +6,4 @@ eureka:
     ip-address: true
 spring:
   zipkin:
-    base-url: http://localhost:7082
+    base-url: http://localhost:7082/
