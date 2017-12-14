@@ -6,6 +6,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -17,10 +18,10 @@ public class HelloSpringCloudController {
     @Autowired
     private DiscoveryClient client;
 
-    @GetMapping("/helloSpringCloud")
-    public String helloSpringCloud(){
+    @GetMapping("helloSpringCloud")
+    public String helloSpringCloud(@RequestParam(value = "name") String name){
         ServiceInstance instance = client.getLocalServiceInstance();
-        return "From Service-A, Result say : helloSpringCloud , Port:" + instance.getPort();
+        return "From Service-A, Result "+ name +" say : helloSpringCloud , Port:" + instance.getPort();
     }
 
 }
