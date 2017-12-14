@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="eureka-sever" />
+        <module name="serice-feign" />
         <module name="server-A" />
         <module name="server-AA" />
+        <module name="service-feign" />
         <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
@@ -17,8 +19,10 @@
       <module name="admin-service" target="1.6" />
       <module name="config-server" target="1.8" />
       <module name="eureka-sever" target="1.8" />
+      <module name="serice-feign" target="1.8" />
       <module name="server-A" target="1.8" />
       <module name="server-AA" target="1.8" />
+      <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
