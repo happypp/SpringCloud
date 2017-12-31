@@ -18,3 +18,7 @@ server:
 SERVICE-A:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#feign设置断路由
+feign:
+  hystrix:
+    enabled: true
