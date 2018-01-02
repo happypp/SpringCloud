@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf63fad1-4a38-423d-b909-5a65a3940e31" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/impl/SchedualServiceHiHystric.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config-server/config-server.iml" afterPath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <change beforePath="$PROJECT_DIR$/eureka-sever/eureka-sever.iml" afterPath="$PROJECT_DIR$/eureka-sever/eureka-sever.iml" />
-      <change beforePath="$PROJECT_DIR$/server-A/server-A.iml" afterPath="$PROJECT_DIR$/server-A/server-A.iml" />
-      <change beforePath="$PROJECT_DIR$/server-AA/server-AA.iml" afterPath="$PROJECT_DIR$/server-AA/server-AA.iml" />
-      <change beforePath="$PROJECT_DIR$/service-feign/pom.xml" afterPath="$PROJECT_DIR$/service-feign/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service-feign/service-feign.iml" afterPath="$PROJECT_DIR$/service-feign/service-feign.iml" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/ServiceFeignApplication.java" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/ServiceFeignApplication.java" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/ConsumerService.java" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/ConsumerService.java" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/application.yml" afterPath="$PROJECT_DIR$/service-feign/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/springboot/ServiceFeignApplication.class" afterPath="$PROJECT_DIR$/service-feign/target/classes/com/springboot/ServiceFeignApplication.class" />
-      <change beforePath="$PROJECT_DIR$/service-feign/target/classes/com/springboot/service/ConsumerService.class" afterPath="$PROJECT_DIR$/service-feign/target/classes/com/springboot/service/ConsumerService.class" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/pom.xml" afterPath="$PROJECT_DIR$/service-ribbon/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" afterPath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/ServiceRibbonApplication.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/ServiceRibbonApplication.java" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/service-ribbon/target/classes/com/springcloud/ServiceRibbonApplication.class" afterPath="$PROJECT_DIR$/service-ribbon/target/classes/com/springcloud/ServiceRibbonApplication.class" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/target/classes/com/springcloud/controller/ConsumerController.class" afterPath="$PROJECT_DIR$/service-ribbon/target/classes/com/springcloud/controller/ConsumerController.class" />
     </list>
     <ignored path="admin-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,6 +22,7 @@
     <ignored path="$PROJECT_DIR$/server-AA/target/" />
     <ignored path="$PROJECT_DIR$/serice-feign/target/" />
     <ignored path="$PROJECT_DIR$/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +37,38 @@
     <favorites_list name="admin-service" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ConfigServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/springcloud/ConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +83,16 @@
       <find>helloSpringCloud</find>
       <find>lock</find>
       <find>hystrix</find>
+      <find>er</find>
+      <find>service-ribbon</find>
+      <find>7072</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace\back\SpringCloud\admin-service</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -89,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-sever/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-sever/src/main/java/com/springcloud/EurekaSeverApplication.java" />
         <option value="$PROJECT_DIR$/eureka-sever/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/server-A/src/main/java/com/springcloud/ServerAApplication.java" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/jdbc-test.properties" />
@@ -122,13 +147,11 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
         <option value="$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/SericeFeignApplication.java" />
         <option value="E:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.2.0/ribbon-loadbalancer-2.2.0.jar!/com/netflix/loadbalancer/RandomRule.class" />
         <option value="E:/m2/com/netflix/ribbon/ribbon-httpclient/2.2.0/ribbon-httpclient-2.2.0.jar!/com/netflix/loadbalancer/PingUrl.class" />
-        <option value="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
@@ -138,6 +161,12 @@
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/ServiceFeignApplication.java" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/ServiceRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/springcloud/ServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/springcloud/filter/MyFilter.java" />
       </list>
     </option>
   </component>
@@ -192,9 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,10 +228,56 @@
               <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="admin-service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,11 +301,11 @@
       <recent name="com.springcloud.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\back\SpringCloud\admin-service\service-zuul\src\main\resources" />
       <recent name="E:\WorkSpace\SpringCloud\admin-service\service-feign\src\main\resources" />
       <recent name="E:\WorkSpace\SpringCloud\admin-service\server-AA\src\main\resources" />
       <recent name="E:\WorkSpace\SpringCloud\admin-service" />
       <recent name="E:\WorkSpace\SpringCloud\admin-service\service-ribbon\src\main\resources" />
-      <recent name="E:\WorkSpace\SpringCloud\admin-service\config-server\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceRibbonApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceZuulApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -362,6 +434,12 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.ServiceRibbonApplication" />
       <module name="service-ribbon" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.ServiceZuulApplication" />
+      <module name="service-zuul" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -720,7 +798,7 @@
       <arguments />
       <envs />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.AdminServiceApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaSeverApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServerAApplication" />
@@ -728,6 +806,7 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ServiceRibbonApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.ServerAaApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ServiceZuulApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -751,6 +830,9 @@
       <workItem from="1513236553354" duration="677000" />
       <workItem from="1513258485105" duration="4754000" />
       <workItem from="1514703111267" duration="3875000" />
+      <workItem from="1514880312539" duration="2000" />
+      <workItem from="1514880392655" duration="4000" />
+      <workItem from="1514880622400" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="细节修改">
       <created>1513261540675</created>
@@ -763,10 +845,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30884000" />
+    <option name="totallyTimeSpent" value="32977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="224" y="225" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -775,20 +858,21 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4312849" sideWeight="0.27389902" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4312849" sideWeight="0.726101" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4312849" sideWeight="0.726101" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21643394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21965629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39776537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -797,7 +881,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -821,7 +904,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -830,210 +913,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-AA/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-AA/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class" />
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-netflix-core/1.2.5.RELEASE/spring-cloud-netflix-core-1.2.5.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.class" />
-    <entry file="file://$PROJECT_DIR$/server-AA/server-AA.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3473">
-          <caret line="151" column="31" lean-forward="false" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-A/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-sever/src/main/java/com/springcloud/EurekaSeverApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/m2/org/springframework/cloud/spring-cloud-config-server/1.2.2.RELEASE/spring-cloud-config-server-1.2.2.RELEASE.pom" />
-    <entry file="file://$PROJECT_DIR$/eureka-sever/eureka-sever.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-A/server-A.iml">
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-service.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-sever/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class" />
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class" />
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-netflix-core/1.2.5.RELEASE/spring-cloud-netflix-core-1.2.5.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class" />
-    <entry file="jar://E:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.2.0/ribbon-loadbalancer-2.2.0.jar!/com/netflix/loadbalancer/IRule.class" />
-    <entry file="jar://E:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.2.0/ribbon-loadbalancer-2.2.0.jar!/com/netflix/loadbalancer/BestAvailableRule.class" />
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.class" />
-    <entry file="jar://E:/m2/org/springframework/boot/spring-boot-test/1.5.8.RELEASE/spring-boot-test-1.5.8.RELEASE.jar!/org/springframework/boot/test/mock/mockito/MockitoAopProxyTargetInterceptor.class" />
-    <entry file="jar://E:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.2.0/ribbon-loadbalancer-2.2.0.jar!/com/netflix/loadbalancer/RoundRobinRule.class" />
-    <entry file="jar://E:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.2.0/ribbon-loadbalancer-2.2.0.jar!/com/netflix/loadbalancer/WeightedResponseTimeRule.class" />
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/jdbc-production.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/jdbc-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/jdbc-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/config-server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/springcloud/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-A/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-A/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-AA/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/m2/com/netflix/ribbon/ribbon-httpclient/2.2.0/ribbon-httpclient-2.2.0.jar!/com/netflix/loadbalancer/PingUrl.class" />
-    <entry file="jar://E:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.2.0/ribbon-loadbalancer-2.2.0.jar!/com/netflix/loadbalancer/RandomRule.class" />
-    <entry file="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-A/src/main/java/com/springcloud/ServerAApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-netflix-core/1.2.5.RELEASE/spring-cloud-netflix-core-1.2.5.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java">
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="34" />
+          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1041,99 +932,291 @@
     <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/service-feign.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/springboot/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/ConsumerService.java">
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/springboot/ServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/impl/SchedualServiceHiHystric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/ServiceRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        <state relative-caret-position="322">
+          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="298">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/m2/org/springframework/cloud/spring-cloud-netflix-core/1.2.5.RELEASE/spring-cloud-netflix-core-1.2.5.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="183" column="16" lean-forward="false" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+          <folding>
+            <marker date="1514703182956" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1514703182956" expanded="false" signature="170:728" ph="..." />
+            <marker date="1514703182956" expanded="true" signature="2064:2462" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="2525:2536" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="2579:2585" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="2629:3301" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="3341:3600" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="3630:3778" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="3809:3820" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="3839:3845" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="3881:3892" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="3916:3922" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="3957:3968" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="3990:3996" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4058:4069" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4088:4094" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4134:4145" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4173:4179" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4217:4228" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4254:4260" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4305:4316" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4344:4350" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4395:4406" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4434:4440" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4486:4497" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4531:4537" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4573:4584" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4608:4614" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4657:4668" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4699:4705" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4747:4758" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4775:4781" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4822:4833" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4862:4868" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="4915:4926" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="4961:4967" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5013:5024" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5053:5059" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5112:5123" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5164:5170" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5238:5249" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5285:5291" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5350:5361" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5383:5389" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5431:5442" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5463:5469" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5522:5533" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5564:5570" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5619:5630" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5657:5663" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="5736:5747" ph=" { " />
+            <marker date="1514703182956" expanded="true" signature="5768:5774" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5835:5846" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5885:5891" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="5948:5959" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="5994:6000" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="6065:6076" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="6115:6121" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="6186:6197" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="6236:6242" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="6316:6383" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="6435:6446" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="6477:6483" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="6550:6561" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="6606:6612" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="6663:6674" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="6691:6697" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="6760:6771" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="6812:6818" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="6894:6963" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="7030:7041" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="7082:7088" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="7176:7257" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="7354:7425" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="7498:7509" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="7536:7542" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="7580:16172" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="16218:16229" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="16268:16274" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="16302:18519" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="18550:19525" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="19568:21046" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="19649:19664" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="19690:19700" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="19757:19772" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="19807:19817" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="19859:20361" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="20411:20426" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="20482:20492" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="20524:20684" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="20719:20831" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="20933:20948" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="20983:20993" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="21029:21040" ph="{}" />
+            <marker date="1514703182956" expanded="true" signature="21077:23265" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="21219:21234" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="21266:21276" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="21324:21339" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="21374:21384" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="21453:21468" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="21515:21525" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="21601:21678" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="21720:22332" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="22382:22397" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="22441:22451" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="22483:22718" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="22753:22930" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="23087:23224" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="23248:23259" ph="{}" />
+            <marker date="1514703182956" expanded="true" signature="23301:32588" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="23774:24047" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="24087:24591" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="24648:24773" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="24810:24825" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="24890:24900" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="24951:25181" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="25229:25393" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="25440:25609" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="25672:25795" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="25846:25861" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="25896:25906" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="25937:25952" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="25967:25977" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26010:26025" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26042:26052" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26090:26105" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26127:26137" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26169:26184" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26200:26210" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26250:26265" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26289:26299" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26338:26353" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26375:26385" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26435:26450" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26479:26489" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26527:26542" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26555:26565" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26607:26622" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26639:26649" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26701:26716" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26743:26753" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26793:26808" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26823:26833" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26890:26905" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="26936:26946" ph=" }" />
+            <marker date="1514703182956" expanded="false" signature="26999:27014" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="27041:27051" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="27131:27208" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="27250:30936" ph="{...}" />
+            <marker date="1514703182956" expanded="false" signature="30986:31001" ph=" { " />
+            <marker date="1514703182956" expanded="false" signature="31050:31060" ph=" }" />
+            <marker date="1514703182956" expanded="true" signature="31092:32131" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="32166:32542" ph="{...}" />
+            <marker date="1514703182956" expanded="true" signature="32571:32582" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/springcloud/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/springcloud/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/springcloud/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
