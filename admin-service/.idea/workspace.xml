@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf63fad1-4a38-423d-b909-5a65a3940e31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/target/classes/com/springcloud/ServiceRibbonApplication.class" afterPath="$PROJECT_DIR$/service-ribbon/target/classes/com/springcloud/ServiceRibbonApplication.class" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" afterPath="$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
+      <change beforePath="$PROJECT_DIR$/server-A/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/server-A/src/main/resources/bootstrap.properties" />
+      <change beforePath="$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" afterPath="$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
+      <change beforePath="$PROJECT_DIR$/server-AA/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/server-AA/src/main/resources/bootstrap.properties" />
     </list>
     <ignored path="admin-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,38 +35,7 @@
     <favorites_list name="admin-service" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ConfigServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/springcloud/ConfigServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,11 +88,9 @@
         <option value="$PROJECT_DIR$/config-server/src/main/resources/jdbc-test.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/jdbc-dev.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/jdbc-production.properties" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-server/src/test/java/com/springcloud/M.java" />
         <option value="$PROJECT_DIR$/config-server/src/test/java/com/springcloud/A.java" />
         <option value="$PROJECT_DIR$/config-server/src/test/java/com/springcloud/Zhishu.java" />
-        <option value="$PROJECT_DIR$/server-A/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/server-A/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-sever/pom.xml" />
         <option value="E:/m2/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/client/RestTemplate.class" />
@@ -133,7 +98,6 @@
         <option value="$PROJECT_DIR$/server-AA/pom.xml" />
         <option value="$PROJECT_DIR$/server-AA/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/ServerAaApplication.java" />
-        <option value="$PROJECT_DIR$/server-AA/src/main/resources/bootstrap.properties" />
         <option value="E:/m2/org/springframework/cloud/spring-cloud-netflix-core/1.2.5.RELEASE/spring-cloud-netflix-core-1.2.5.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class" />
         <option value="E:/m2/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class" />
         <option value="E:/m2/org/springframework/cloud/spring-cloud-netflix-core/1.2.5.RELEASE/spring-cloud-netflix-core-1.2.5.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.class" />
@@ -145,8 +109,6 @@
         <option value="$PROJECT_DIR$/server-A/server-A.iml" />
         <option value="$PROJECT_DIR$/admin-service.iml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
-        <option value="$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
         <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/springboot/SericeFeignApplication.java" />
@@ -165,8 +127,13 @@
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/springcloud/ServiceZuulApplication.java" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/springcloud/filter/MyFilter.java" />
+        <option value="$PROJECT_DIR$/server-A/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/server-AA/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
+        <option value="$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -228,49 +195,6 @@
               <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="admin-service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admin-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -320,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceZuulApplication">
+  <component name="RunManager" selected="Spring Boot.ServerAaApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -832,7 +756,7 @@
       <workItem from="1514703111267" duration="3875000" />
       <workItem from="1514880312539" duration="2000" />
       <workItem from="1514880392655" duration="4000" />
-      <workItem from="1514880622400" duration="2087000" />
+      <workItem from="1514880622400" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="细节修改">
       <created>1513261540675</created>
@@ -845,11 +769,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32977000" />
+    <option name="totallyTimeSpent" value="34084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="224" y="225" width="1936" height="1066" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -863,7 +786,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21965629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21965629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -945,14 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -973,30 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1205,18 +1096,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="529">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/ConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="115">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/springboot/service/impl/SchedualServiceHiHystric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/springcloud/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="80" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-AA/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-A/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-A/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/jdbc-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/jdbc-production.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-A/src/main/java/com/springcloud/controller/HelloSpringCloudController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-AA/src/main/java/com/springcloud/controller/HelloSpringCloudController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>

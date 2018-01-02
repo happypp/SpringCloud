@@ -4,4 +4,4 @@ spring:
   profiles:
     active: native
 server:
-  port: 7072
+  port: 7074
